@@ -4,6 +4,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.active {
+  color: gray;
+}
+
 header {
   display: flex;
   margin-bottom: 150px;
@@ -20,7 +24,7 @@ nav ul {
 
 ul li {
   margin-left: 20px;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 20px;
   cursor: pointer;
 }
@@ -29,12 +33,29 @@ ul li:hover {
   color: rgba(77, 75, 75, 0.74)
 }
 
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  margin-bottom: 300px;
+}
+
 .about {
   display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
   align-items: center;
-  width: 1150px;
-  margin: auto;
   gap: 40px;
+}
+
+.about {
+  padding-top: 50px;
 }
 
 .about-title {
@@ -46,6 +67,7 @@ ul li:hover {
 .about-desc {
   font-size: 18px;
   margin-bottom: 40px;
+  width: 700px;
   color: rgb(121, 123, 126);
 }
 
@@ -57,7 +79,8 @@ ul li:hover {
   font-size: 20px;
   background-color: #00ffff;
 }
-.about-btn:hover{
+
+.about-btn:hover {
   background-color: #224e4e5e;
   transform: scale(1.1);
 }
@@ -67,7 +90,7 @@ ul li:hover {
   border-radius: 10px;
 }
 
-footer{
+footer {
   height: 225px;
   margin-top: 150px;
   color: white;
@@ -76,12 +99,14 @@ footer{
   align-items: center;
   justify-content: space-around;
 }
-.address-title{
+
+.address-title {
   font-size: 20px;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
 }
-.address-desc{
+
+.address-desc {
   font-size: 15px;
 }
