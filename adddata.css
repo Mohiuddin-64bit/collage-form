@@ -1,27 +1,38 @@
 *{padding: 0; margin: 0; font-family: Arial, Helvetica, sans-serif;}
+.body{
+  position: relative;
+}
 .logo{
   text-align: center;
   margin-top: 20px;
   font-size: 30px;
 }
-.menu{
-  background-color: antiquewhite;
-  width: 250px;
-  padding: 30px;
-  position: static;
-  height: 100vh;
+.sidebar{
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
+.navbar{
+  
 }
 .navbar ul{
   position: absolute;
   top: 30%;
   text-align: center;
+  margin-left: 30px;
+  left: 30px;
 }
 .navbar ul li{
   list-style: none;
-  font-size: 24px;
+  font-size: 20px;
   background-color: aqua;
   margin-bottom: 50px;
-  padding: 30px 50px;
+  padding: 20px 30px;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -34,3 +45,37 @@
   color: black;
 }
 /* form style */
+.container{
+  position: absolute;
+  background-color: aquamarine;
+  top: 265px;
+  width: 800px;
+  border-radius: 20px;
+}
+.form{
+  padding: 70px;
+  margin-left: 10px;
+  border-radius: 30px;
+
+}
+
+.form label{
+  display: inline-block;
+  width: 200px;
+  margin-bottom: 20px;
+  font-size: 18px;
+
+}
+.form input{
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.student-info {
+  left: 640px;
+  position: absolute;
+  width: 700px;
+  padding: 1px 16px;
+  height: 1000px;
+}
