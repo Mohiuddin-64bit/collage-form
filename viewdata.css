@@ -1,0 +1,23 @@
+@import url("adddata.css");
+
+main{
+  position: absolute;
+  left: 45%;
+  transform: translateX(-50%);
+  top: 30%;
+  width: 400px;
+  height: 400px;
+
+}
+table{
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+tbody{
+  background-color: rgba(208, 228, 228, 0.781);
+
+}
+td{
+  border: 1px solid black;
+  padding: 20px 80px;
+}

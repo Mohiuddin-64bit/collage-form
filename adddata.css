@@ -77,10 +77,15 @@
   height: 1000px;
 }
 .submit-btn{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
   padding: 10px 30px;
-  margin-top: 10px;
   border: 1px solid black;
   border-radius: 5px;
   background-color: rgb(231, 119, 119);
-
+  cursor: pointer;
+}
+.submit-btn:hover{
+  background-color: rgba(223, 172, 172, 0.795);
 }
