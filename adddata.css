@@ -17,9 +17,6 @@
   overflow: hidden;
 }
 
-.navbar{
-  
-}
 .navbar ul{
   position: absolute;
   top: 30%;
@@ -78,4 +75,12 @@
   width: 700px;
   padding: 1px 16px;
   height: 1000px;
+}
+.submit-btn{
+  padding: 10px 30px;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(231, 119, 119);
+
 }
